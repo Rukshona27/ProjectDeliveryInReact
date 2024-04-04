@@ -1,0 +1,49 @@
+.aboutUs{
+    height: 100%;
+    padding: 4%;
+    background-image: url('../../public/banner2.png');
+    background-repeat: no-repeat;
+  }
+  .block1, .block3, .block4,.block2{
+    background-color: #504B4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .block1 a, .block2 a,.block3 a,.block4 a{
+    text-decoration-line: none;
+    color: white;
+  }
+  .abUs1,.abUs2{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 4%;
+    margin-left: 6%;
+  }
+  section .block34{
+    margin-left: 3%;
+  }
+  .block1,.block3{
+    margin-bottom: 8%;
+  }
+  .titleAUs, .btnAUs{
+    padding-bottom:4%;
+  }
+  .textAUs{
+    width: 70%;
+  }
+  .btnAUs{
+    background-color: #272b28;
+    text-decoration-line: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    padding: 2%;
+  }
+  .btnAUs:hover{
+    border: 1px solid green;
+    color: green;
+  }
+  
