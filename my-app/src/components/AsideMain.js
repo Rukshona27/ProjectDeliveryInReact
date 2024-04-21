@@ -44,6 +44,7 @@ function Second(){
         <div class="backgroundAppeal">
       <div class="contactsForAppeal">
         <h1 class="colorWhite titleAUs">КОНТАКТЫ</h1>
+        <hr/>
         <div class="adress doJustFlex2">
           <span class="locationOnIcon material-symbols-outlined colorWhite">location_on</span>
           <section>
@@ -51,13 +52,22 @@ function Second(){
             <p class="colorWhite">МО, городской округ Красногорск, село Ильинкое, Экспериментальная улица, 10</p>
           </section>
         </div>
-        <div class="mail">
+        <div class="mail doJustFlex2">
           <span class="mainIcon material-symbols-outlined colorWhite">mail</span>
           <section>
             <p class="colorGrey">Наша почта:</p>
             <p class="colorWhite">auto.wash@gmail.com</p>
           </section>
         </div>
+        <hr/>
+        <section className="doJustFlex">
+          <button type="button" className="btnAUs2">ЗАБРОНИРОВАТЬ СТОЛ</button>
+          <div>
+            <p className="phone">+7 (917) 510-57-59</p>
+            <p className="colorGrey">Звоните или оставляйте заявку </p>
+          </div>
+        </section>
+        <p>Мы в соц сетях:</p>
       </div>
     </div>
     )

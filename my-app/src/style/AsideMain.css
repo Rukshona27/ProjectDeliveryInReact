@@ -3,6 +3,7 @@
     padding: 4%;
     background-image: url('../../public/banner2.png');
     background-repeat: no-repeat;
+    background-position-y: center;
   }
   .block1, .block3, .block4,.block2{
     background-color: #504B4A;
@@ -41,9 +42,25 @@
     border: 1px solid white;
     color: white;
     padding: 2%;
+    margin-top: 4%;
   }
   .btnAUs:hover{
     border: 1px solid green;
     color: green;
   }
+  .btnAUs2{
+    background-color: #456d4f;
+    text-decoration-line: none;
+    border-radius: 10px;
+    border: 1px solid #fdfffd;
+    color: white;
+    padding: 1.2%;
+    font-size: 0.8rem;
+  }
+  .phone{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
   

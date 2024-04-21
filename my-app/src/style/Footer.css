@@ -1,0 +1,38 @@
+ul li a, p a,.footerLinkLogo{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    padding: 2% 12% 2% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footerTextLittle{
+    font-size: 0.6rem;
+}
+.footerLinkLogo{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.footerTextLittle, .footerLink{
+    margin-top: 3%;
+}
+.footerLink{
+    font-size: 0.8rem;
+}
+.footerLink:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #5b7e5b;
+}
+.footerlink2{
+    font-size: 1.1rem;
+}
+.footerlink2 a:hover{
+    color: #5b7e5b;
+}
